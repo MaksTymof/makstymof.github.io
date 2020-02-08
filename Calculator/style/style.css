@@ -1,0 +1,134 @@
+:root{
+	--border--: solid 4px #5f9ea0 ;
+	--brand--color: #5f9ea0;
+}
+
+.calc{
+	position: relative;
+	width: 387px; 
+	height: 598px;
+	border: var(--border--);
+	border-radius: 10px;
+
+	
+}
+.name{
+	width:100%;
+	height: 55px;
+	margin-top:17px;
+	background-color: var(--brand--color) ;
+}
+.letters{
+	color: #ffffff;
+	font-family: "DejaVu Sans";
+	font-weight: 400;
+	font-size: 24px;
+	text-align: right;
+	padding-top: 16px;
+	padding-right: 19px;
+}
+.input{
+	width: 358px;
+	height: 47px;
+	border: var(--border--);
+	margin-top: 16px;	
+	border-radius: 10px;
+	position:absolute;
+	left:10px;
+	right:10px;
+}
+input{
+	width:355px;
+	height: 45px;
+	border-radius: 10px;
+	border:none;
+	outline:none;
+	font-family: "DejaVu Sans";
+	font-size: 43px;
+	color: var(--brand--color);
+	font-weight: 400;
+}
+.battery{
+	width: 127px;
+	height: 45px;
+	background-color: var(--brand--color);
+	position: absolute;
+	top: 150px;
+	right: 13px;
+	bottom: 397;
+	left: 243;
+}
+.plus__numbers{
+	height: 68px;
+	position: absolute;
+	top: 216px;
+	right: 20px;
+	bottom: 300px;
+	left: 25px;
+}
+.btn{
+	width: 68px;
+	height: 68px;
+	border: var(--border--);
+	border-radius: 10px;
+	color: var(--brand--color);
+	font-size: 24px;
+	font-family: Dejavu Sans;
+	font-weight: bold;
+	text-align: center;
+	align-items: center;
+	background-color: transparent;
+	outline: none;
+}
+
+button:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+button:active{
+	color: red;
+} 
+
+.eight,
+.nine,
+.plus{
+	margin-left: 16px;
+}
+
+.minus__numbers{
+	position: absolute;
+	right: 20px;
+	left: 25px;
+	top:307px;
+	bottom: 208px;
+}
+.five,
+.six,
+.minus{
+	margin-left: 16px;
+}
+.slash__numbers{
+	position: absolute;
+	right: 20px;
+	left: 25px;
+	top:405px;
+	bottom: 112px;
+}
+.two,
+.three,
+.slash{
+	margin-left: 16px;
+}
+.star__bottom{
+	position: absolute;
+	right: 20px;
+	left: 25px;
+	top:502px;
+	bottom: 16px;
+}
+.zero,
+.equal,
+.star{
+	margin-left: 16px;
+}
