@@ -1,0 +1,141 @@
+:root{
+	--border--color: #a6a39d;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.order{
+	margin: 15px 250px;
+	width: 100%;
+	height: 30px;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+}
+.products{
+	position: relative;
+	margin-top: 60px;
+	margin-left:120px;
+	width: 972px;
+	height: 453px; 
+	border: solid 1px var(--border--color) ;
+}
+.offer{
+	position: relative;
+	width: 25%;
+	height: 100%;
+	padding-left: 14px;
+	padding-right: 14px;
+	border-right: solid 1px var(--border--color);
+	float:left;
+	
+}
+.offer-category{
+	height: 95px;
+	border-bottom: solid 1px var(--border--color);
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 90px;
+}
+.offer-imgph{
+	width: 130px;
+	margin-left: 40px;
+	margin-top: 25px;
+}
+.product-name{
+	color: #0995db;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 10px;
+}
+.btn{
+	width: 137px;
+	height: 42px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 40px;
+	
+	margin-left:40px;
+}
+.not-active{
+	background-color: #91094f;
+	color:#fff;
+	margin-top: 70px;
+}
+.active{
+	background-color: #e5f50a;
+	color: #000;
+}
+.offer:last-child{
+	border: 0px;
+}
+.price{
+	width: 132px;
+	height: 40px;
+	margin-top: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-left: 40px;
+	font-weight: bold;
+}
+.oldpr{
+	text-decoration: line-through;
+	font-size: 10px;
+}
+.sticker{
+	width: 68px;
+	height: 68px;
+	border-radius: 50%;
+	border: solid #fff 3px;	
+	position:absolute;
+	right: 2px;
+	bottom: 417px;
+	left: 167px; 
+
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+.newitem{	
+	background-color: #108f0b;
+	line-height: 65px;
+}
+.salehit{
+	background-color: #1157ad;	
+}
+.sh {
+  display: block;
+  margin-top: 20px;
+  line-height: 10px;
+}
+a {
+	
+	text-decoration: none;
+}
+.scroll{
+	position:absolute;
+	top: 76px;
+	bottom: 340px;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	border-radius: 50%;
+	border: solid 3px #a6a39d;
+	text-align: center;
+	line-height: 32px;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: #fff;
+}
+.left{
+	left:-20px;
+}
+.right{
+	right:-20px;	
+}
