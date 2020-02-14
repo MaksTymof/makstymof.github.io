@@ -71,7 +71,7 @@
 	background-color: #e5f50a;
 	color: #000;
 }
-.offer:last-child{
+.offer:nth-last-child(2){
 	border: 0px;
 }
 .price{
