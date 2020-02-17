@@ -1,0 +1,202 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main-wrap{
+	margin: 0 auto;
+	width: 980px;
+	background: url(../img/bg.png);
+	background-color: #383838;
+	min-height: 100px;
+}
+header{
+	width:100%;
+	height: 430px;
+	background-image: url(../img/bg-01.jpg);
+	background-size: 1200px 430px;
+	background-position: center;
+}
+.topbar{
+	width: 100%;
+	height: 45px;
+	background-color: #140101;
+	opacity: 0.8;
+}
+nav{
+	width: inherit;
+	padding-left: 150px;
+}
+ul.menu li{
+display: inline-block;
+}
+li{
+	width: 75px;
+	text-align: center;
+}
+ul.menu a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 12px;
+	text-transform: uppercase;
+	line-height: 45px;
+	color: #fff;
+}
+li:active{
+	background-color: #b91a34;
+}
+ h1{
+	margin: 75px 170px;
+	font-family: "Metal Mania","Open+Sans:300";
+	font-size: 55px;
+	font-weight: 400;
+	color: #fff;
+	text-transform: uppercase;
+}
+.button{
+	display: block;
+	height: 45px;
+	background-color:  #b91a34;
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px;
+	text-transform: uppercase;
+	line-height: 45px;
+	text-align: center;
+}
+header a.button{
+	width: 285px;
+	margin-left: 350px;
+}
+h2{
+	width: 80%;
+	height: 50px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	font-weight: 300;
+	font-family: 'Open Sans';
+	font-size: 20px;
+}
+.tour{
+	width: 100%;
+	justify-content: center;
+	margin-left: 90px;
+}
+.tour-card{
+	width: 100px;
+	height: 190px;
+	padding-left: 8px;
+	padding-top: 10px;
+	color: #fff;
+	font-weight: 300;
+	font-family: 'Open Sans';
+	float: left;
+	width: 18%;
+	margin-left: 10px;
+}
+.madrid{
+	background-image: url(../img/madrid.jpg);
+	background-position: center;
+
+}
+.tour-town{
+	font-size: 17px;
+}
+.tour-place{
+	font-size: 15px;
+}
+.tour-date{
+	font-size: 12px;
+	font-style: italic;
+}
+.tour a.button{
+	width: 130px;
+	margin-left: 15px;
+	margin-top: 40px;
+}
+.clearfix{
+	clear: both;
+}
+
+.turin{
+	background-image: url(../img/turin.jpg);
+	background-position: center;
+}
+.hamburg{
+	background-image: url(../img/hamburg.jpg);
+	background-position: center;
+}
+.krakow{
+	background-image: url(../img/krakow.jpg);
+	background-position: center;
+}
+.gallery h2{
+	margin-left: 45px;
+}
+.gallery{
+	margin-left: 100px;
+	width: 850px;
+	height: 655px;	
+}   
+figure{
+
+	display: inline-block;
+	width: 240px;
+	height: 240px;
+	text-align: center;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.subscribe{
+	width: 100%;
+	height: 260px;
+	background-image: url(../img/bg-02.jpg);
+	background-position: center;
+}
+.pitch h2{
+	margin-left: 75px;
+}
+.pitch {
+	padding-top: 25px;
+	color: #fff;
+	text-align: center;
+	font-weight: 300;
+	font-family: 'Open Sans';
+	font-size: 13px;
+}
+form{
+		text-align: center;
+		margin-right: 20px;
+}
+input{
+	width: 210px;
+	height: 40px;
+}
+button{
+	width: 125px;
+	height: 40px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	background-color:  #b91a34;
+	border: none;
+	margin-top: 20px;
+}
+.social a, .container p{
+	color:#fff;
+}
+.social{
+	text-align: center;
+	margin-top: 5px;
+}
+.copyright{
+	text-align: center;
+	margin-top: 5px;
+}
