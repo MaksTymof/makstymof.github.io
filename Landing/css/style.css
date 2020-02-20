@@ -11,30 +11,41 @@ body{
 	width: 100%;
 	text-align: center;
 	color: #6ea2f5;
-	padding-top: 15px;
+	padding-top: 25px;
 	font-family: 'Raleway';
+	font-size: 25px;
 }
+
 ul.menu li{
-display: inline-block;
+	width: 45%;
+	display: block;
+	margin: auto;
+	margin-top:10px;
+	text-align: center;
+	font-size: 25px;
+	border-radius: 10px;
+	background-color: #c5cad4;
 }
-
-li{
-width: 22%;
-margin-top: 15px;
-margin-left: 5px;
-text-align: center;
-background-color: red;
-
-}
-.menu a{
+ a{
+ 	display: block;
+ 	border-radius: inherit;
+ 	border: solid 2px #8b8e94;
+	width: 100%;
+	height: 100%;
 	text-decoration: none;
 	color: #000;
 }
+a:active{
+	background-color: red;
+}
 .jumbotron{
 	width: 100%;
-	height: 200px;
+	min-height: 250px;
 	background-image: url(../img/jumbotron.jpg);
-	background-size: contain;
+	background-position: top center;
+    background-size: cover;  	
+	background-repeat: no-repeat;
+
 }
 h1{
 	color: #fff;
@@ -47,16 +58,20 @@ h1{
 }
 .button{
 	display: block;
-	margin: 50px 95px;
-	width: 120px;
+	margin: auto;
+	width: 200px;
 	height: 35px;
+	border-color: transparent;
 	border-radius: 25px;
 	line-height: 30px;
 	text-align: center;
 	background-color: #fa5ba5;
 	text-decoration: none;
 	color: #fff;
-	font-size: 10px;
+	font-size: 20px;
+}
+a.button{
+	margin-top: 150px;
 }
 .service{
 	margin-top: 10px;
@@ -66,70 +81,59 @@ h2{
 	font-family: 'Raleway';
 	margin-top: 15px;
 }
+.service{
+	width: 100%;
+	text-align: center;
+}
 i{
-	display: block;
-	float: left;
-	margin-right: 10px;
+ opacity: 0.5;
 }
-.clearfix{
-	clear: both;
+.blog{
+	align-items: center;
 }
-
- p{
- 	margin-left: 5px;
-	font-size: 15px;
-	text-align: left;
-}
-
 img{
 	display: block;
-	width: 75px;
-	height: 75px;
-	float: left;
+	
 }
 .post{
+	padding-left: 15px;
 	margin-top: 15px;
+	text-align: center;
 }
 h3{
-	width: 250px;
-	margin-left: 85px;
-	text-align: left;
+	width: 100%;
+	margin-top: 5px;
+	text-align: center;
 	font-family: 'Raleway';
 	font-size: 17px;
 }
 .date{
-	width: 250px;
 	margin-top: 5px;
-	margin-left: 85px;
-	text-align: left;
 }
 .text-blog{
-	width: 100%;
 	margin-top: 5px;
 }
+
 footer{
 	margin-top: 10px;
 	background-color: #8f8d89;
+	
 }
 
 footer .brand{
 	color: #fff;
 }
-footer li{
-	background-color: transparent;
-}
-footer .menu a{
+footer a{
 	color: #fff;
 }
-footer li{
-	width: 15%; 
-	font-size: 13px;
-	margin-left: 25px;
+
+footer .container li{
+	border: solid 3px #fff;
+	background-color: transparent;
 }
 .copyright{
 	color: #fff;
 	margin-top: 10px;
-	margin-bottom: 10px;
 	text-align: center;
 	font-size: 12px;
 }
