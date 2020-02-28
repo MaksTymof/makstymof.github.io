@@ -123,6 +123,7 @@ a{
 }
 .copyright{
 	color: #fff;
-	text-align: center;
+	text-align: left;
+	padding-left: 10px;
 	line-height: 50px;
 }
