@@ -4,7 +4,7 @@ html,h1,h2,h3,h4,h5,h6,a{
  font-family: "Raleway";
 }
 .navbar{ 
-	background:#F97300;
+	background:#4ac76d;
 }
 .nav-link , .navbar-brand{ 
 	color: #f4f4f4; cursor: pointer;
@@ -13,7 +13,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 	margin-right: 1em !important;
 }
 .nav-link:hover{ 
-	background: #f4f4f4; color: #f97300;
+	background: #f4f4f4; color: #4ac76d;
 	 }
 .navbar-collapse{
  justify-content: flex-end;
@@ -42,7 +42,7 @@ header{
     padding: 2em;
 }
 .description h1{
- color:#F97300 ;
+ color:#4ac76d ;
 }
 .description p{
  color:#666;
@@ -51,8 +51,8 @@ header{
  line-height: 1.5;
 }
 .description button{
- border:1px  solid #F97300;
- background:#F97300;
+ border:1px  solid #4ac76d;
+ background:#4ac76d;
  color:#fff;
 }
 .about{
@@ -61,7 +61,7 @@ header{
  position: relative;
 }
 .about h1{
- color:#F97300;
+ color:#4ac76d;
  margin: 2em;
 }
 .about img{
@@ -91,7 +91,7 @@ header{
     position: relative; 
 }
 .portfolio h1{
- color:#F97300;
+ color:#4ac76d;
  margin: 2em; 
 }
 .portfolio img{
@@ -104,7 +104,7 @@ header{
  position: relative; 
 }
 .blog h1{
- color:#F97300;
+ color:#4ac76d;
  margin: 2em; 
 }
 .blog .card{
@@ -115,7 +115,7 @@ header{
  height: 12em;
 }
 .blog .card-title{
- color:#F97300;
+ color:#4ac76d;
   
 }
 .blog .card-body{
@@ -126,14 +126,14 @@ header{
  position: relative;  
 }
 .team h1{
- color:#F97300;
+ color:#4ac76d;
  margin: 2em; 
 }
 .team .item{
  position: relative;
 }
 .team .des{
- background: #F97300;
+ background: #4ac76d;
  color: #fff;
  text-align: center;
  border-bottom-left-radius: 93%;
@@ -154,13 +154,13 @@ header{
 }
 .contact-form h1{
  padding:2em 1px;
- color: #F97300; 
+ color: #4ac76d; 
 }
 .contact-form .right{
  max-width: 600px;
 }
 .contact-form .right .btn-secondary{
- background:  #F97300;
+ background: #4ac76d;
  color: #fff;
  border:0;
 }
