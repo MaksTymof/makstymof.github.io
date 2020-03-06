@@ -1,26 +1,231 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-	<meta charset="utf-8">
-	<title>My Project</title>
-	<link rel="stylesheet" href="styles/styles.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Bootstrap </title>
+	<link rel="stylesheet" href="style/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	
 </head>
+
 <body>
 
-	<div><a href="Googlev2/index.html">Google v2</a></div> 
-	<div><a href="docua/index.html">docua</a></div>
-	<div><a href="docuatask/index.html">docuatask</a></div>
-	<div><a href="Calculator/index.html">Calculator</a></div>
-        <div><a href="article/article.html">Article</a></div>
-	<div><a href="Burger/index.html">Burger</a></div>
-	<div><a href="Catalog/index.html">Catalog</a></div>
-	<div><a href="Metalband/index.html">Metalband</a></div>
-	<div><a href="Landing/index.html">Landing</a></div>
-	<div><a href="Kolesov/index.html">Kolesov</a></div>
-				<img src="data:image/jpeg;base64,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" class="imgshrek" width="150px">
-				<div class="myname">Тимофіїв Максим</div>
-	
+	<nav class="navbar navbar-expand-lg fixed-top ">  
+ <a class="navbar-brand" href="#">Home</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
+ <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse " id="navbarSupportedContent">    
+ <ul class="navbar-nav mr-4">
+ <li class="nav-item">
+     <a class="nav-link" data-value="about" href="#">About</a>  </li>  
+<li class="nav-item">
+    <a class="nav-link " data-value="portfolio" href="#">Portfolio</a>    
+ </li>
+ <li class="nav-item"> 
+    <a class="nav-link " data-value="blog" href="#">Blog</a>         </li>   
+<li class="nav-item">  
+   <a class="nav-link " data-value="team" href="#">         Team</a>       </li>  
+<li class="nav-item"> 
+ <a class="nav-link " data-value="contact" href="#">Contact</a>       </li> 
+</ul> 
+</div></nav>
+<div class="about" id="about"></div>
+		<header class="header">
+  		<div class="overlay"></div>
+  		<div class="container">
+  			<div class="description">
+   <h1>    Hello ,Welcome To My official Website
+    <p>    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>   
+ <button class="btn btn-outline-secondary btn-lg">See more</button>   </h1>  
+</div>
+  		</div>
+</header>
+
+<div class="row">
+   <div class="col-lg-4 col-md-4 col-sm-12">
+    <img src="img/karlson.jpeg" class="img-fluid">
+    <span class="text-justify">S.Web Developer</span>
+   </div>
+   <div class="col-lg-8 col-md-8 col-sm-12 desc">
+     
+    <h3>Maks Tymofiiv</h3>
+    <p>
+       ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+   </div>
+  </div>
+
+   <div class="portfolio" id="portfolio">
+     <h1 class="text-center">Portfolio</h1>
+ <div class="container">
+  <div class="row">
+   <div class="col-lg-4 col-md-4 col-sm-12">
+    <a href="https://makstymof.github.io/Googlev2/index.html" target="blank"><img src="img/google.png" class="img-fluid"></a>
+   </div>
+   <div class="col-lg-4 col-md-4 col-sm-12">
+    <a href="https://makstymof.github.io/docua/index.html" target="blank"><img src="img/docua.png" class="img-fluid"></a>
+   </div>
+   <div class="col-lg-4 col-md-4 col-sm-12">
+    <a href="https://makstymof.github.io/docuatask/index.html" target="blank"><img src="img/docuat.png" class="img-fluid"></a>
+   </div>
+<div class="col-lg-4 col-md-4 col-sm-12">
+    <a href="https://makstymof.github.io/Calculator/index.html" target="blank"><img src="img/calc.png" class="img-fluid"></a>
+   </div>
+   <div class="col-lg-4 col-md-4 col-sm-12">
+    <a href="https://makstymof.github.io/article/article.html" target="blank"><img src="img/article.png" class="img-fluid"></a>
+   </div>
+   <div class="col-lg-4 col-md-4 col-sm-12">
+    <a href="https://makstymof.github.io/Landing/index.html" target="blank"><img src="img/landing.png" class="img-fluid"></a>
+   </div>
+<div class="col-lg-4 col-md-4 col-sm-12">
+    <a href="https://makstymof.github.io/Metalband/index.html" target="blank"><img src="img/metalband.png" class="img-fluid"></a>
+   </div>
+   <div class="col-lg-4 col-md-4 col-sm-12">
+    <a href="https://makstymof.github.io/Burger/index.html" target="blank"><img src="img/burger.png" class="img-fluid"></a>
+   </div>
+   <div class="col-lg-4 col-md-4 col-sm-12">
+   <a href="https://makstymof.github.io/Kolesov/index.html" target="blank"> <img src="img/kolesov.png" class="img-fluid"></a>
+   </div>
+
+<div class="col-lg-4 col-md-4 col-sm-12">
+   <a href="https://makstymof.github.io/Catalog/index.html" target="blank"> <img src="img/catalog.png" class="img-fluid"></a>
+   </div>
+  </div>
+ </div>
+</div>
+			<div class="blog"  id="blog">
+ <div class="container">
+ <h1 class="text-center">Blog</h1>
+  <div class="row">
+   <div class="col-md-4 col-lg-4 col-sm-12">
+    <div class="card">
+     <div class="card-img">
+      <img src="images/posts/polit.jpg" class="img-fluid">
+     </div>
+     
+     <div class="card-body">
+     <h4 class="card-title">Post Title</h4>
+      <p class="card-text">
+       
+       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+     </div>
+     <div class="card-footer">
+      <a href="#" class="card-link">Read more</a>
+     </div>
+    </div>
+   </div>
+   <div class="col-md-4 col-lg-4 col-sm-12">
+    <div class="card">
+     <div class="card-img">
+      <img src="images/posts/images.jpg" class="img-fluid">
+     </div>
+     
+     <div class="card-body">
+        <h4 class="card-title">Post Title</h4>
+      <p class="card-text">
+       
+       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+     </div>
+     <div class="card-footer">
+      <a href="" class="card-link">Read more</a>
+     </div>
+    </div>
+   </div>
+   <div class="col-md-4 col-lg-4 col-sm-12">
+    <div class="card">
+     <div class="card-img">
+      <img src="images/posts/imag2.jpg" class="img-fluid">
+     </div>
+     
+     <div class="card-body">
+     <h4 class="card-title">Post Title</h4>
+      <p class="card-text">
+       
+       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+     </div>
+     <div class="card-footer">
+      <a href="" class="card-link">Read more</a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+
+		<div class="team" id="team">
+ <div class="container">
+    <h1 class="text-center">Our Team</h1>
+  <div class="row">
+   <div class="col-lg-3 col-md-3 col-sm-12 item">
+    <img src="img/karlson.jpeg" class="img-fluid" alt="team">
+    <div class="des">
+      Sara
+     </div>
+    <span class="text-muted">Manager</span>
+   </div>
+   <div class="col-lg-3 col-md-3 col-sm-12 item">
+    <img src="img/karlson.jpeg" class="img-fluid" alt="team">
+    <div class="des">
+       Chris
+     </div>
+    <span class="text-muted">S.enginner</span>
+   </div>
+   <div class="col-lg-3 col-md-3 col-sm-12 item">
+    <img src="img/karlson.jpeg" class="img-fluid" alt="team">
+    <div class="des">
+      Layla 
+     </div>
+    <span class="text-muted">Front End Developer</span>
+   </div>
+   <div class="col-lg-3 col-md-3 col-sm-12 item">
+    <img src="img/karlson.jpeg" class="img-fluid" alt="team">
+     <div class="des">
+      J.Jirard
+     </div>
+    <span class="text-muted">Team Manger</span>
+   </div>
+  </div>
+ </div>
+</div>
+		<div class="contact-form" id="contact">
+ <div class="container">
+  <form>
+   <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-12">
+      <h1>Get in Touch</h1> 
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-12 right">
+       <div class="form-group">
+         <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+       </div>
+       <div class="form-group">
+         <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
+       </div>
+       <div class="form-group">
+         <textarea class="form-control form-control-lg">
+          
+         </textarea>
+       </div>
+       <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+    </div>
+   </div>
+  </form>
+ </div>
+</div>
+			
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
