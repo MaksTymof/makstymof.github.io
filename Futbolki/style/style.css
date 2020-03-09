@@ -1,0 +1,810 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	padding: 0 7px;
+	border-top: solid 5px #f7c50f;
+}
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;  
+  border-top: 10px solid  #f7c50f;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.btn{
+	background-color: #f7c50f;
+	height: 25px;
+	width: 95px;
+	border-radius: 15px;
+	color: #000;	
+	font-weight: bold;
+	text-align: center;
+	border: transparent;
+}
+.create, .sell{
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	margin-bottom: 15px;
+	border-radius: 0;
+
+}
+
+.social-top img{
+	padding-left: 5px;
+  	display: block;
+   width:22px; 
+   height:20px;
+}
+.social{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.social-top{
+	width: 30px;
+	height: 30px;
+	border: solid 2px lightblue;
+	border-radius: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin-right: 15px;
+}
+.bott{
+	border-color: #f7c50f;
+}
+a{
+	display: block;
+	width:100%;
+	text-decoration: none;
+	color:#000;
+}	
+.top-contacts{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.cont a{
+	text-decoration: underline;
+	color: blue;
+	padding-left: 20px;
+}
+.icq{
+	width: 100px;
+	margin-left: 5px;
+	font-size: 15px;
+}
+.cont img{
+	display: inline-block;
+	width:16px;
+	height:16px;
+	float: left;
+}
+.productlogo{
+	width: 100%;
+	margin-top: 7px;
+	text-align: center;
+}
+.line{
+	width: 45px;
+	height: 2px;
+	margin: 0 auto;
+	background-color: #000;
+	margin-top: 3px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+ 	
+}
+.dress{
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+.kyivstartel{
+	width: 100%;
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.kyivstar{
+	color: #3aadf0;	
+	font-size: 22px;
+	float: left;
+	margin: 0 auto;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+.telnumber{ 
+	margin-top: 2px;
+	display: inline-block;
+	font-size: 19px;
+	font-weight: bold;
+}
+.registr a{
+	color: #3aadf0;
+	font-size: 15px;
+	text-decoration: underline;
+} 
+.enter, .registration{
+	display: inline-block;
+	text-transform: uppercase;
+}	
+.registr{
+	text-align: center;
+	margin-top: 15px;
+}
+.enter{
+	margin-right: 15px;
+}
+.registration{
+	margin-left: 10px;
+}
+.wthdone{
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.basket{
+	width: 100%;
+	margin-top: 10px;
+}
+.empty{
+	display: inline-block;
+	color: #3aadf0;	
+	font-size: 15px;
+	text-decoration: underline;
+}
+.preferences{
+	width: 100%;
+	margin-top: 10px;
+}
+.menu{
+	display:none;
+	position:relative;
+	margin-top: 10px;
+	text-align: center;
+	width: 100%;
+	height: 240px;
+	border-radius: 10px;
+	color: yellow;
+	background-color: #31a5e8;
+}
+.menu__btn{
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+	border-radius: 10px;
+	background-color: #31a5e8; 
+	color: yellow;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+ .navig{
+ 	position: relative;
+ }
+ .navig:hover .menu {
+  display: block;
+ }
+ 
+.menu a{
+	display: inline-block;
+	height: 100%;
+	color: #eef20f;
+	text-transform: uppercase;
+}
+.menu li{
+	border-bottom: solid 2px #fff;
+	list-style: none;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+}
+.menu li:last-child{
+	border-bottom: none;
+}
+div.vyshyvanka{
+	display: none;
+}
+.yellow{
+	display: none;
+}
+
+.categories{
+	height:380px;
+}
+.categories li{
+	height: 38px;
+}
+.content-prod{
+	width: 100%;
+	position: relative;
+	margin-top: 5px;
+	border: solid 2px yellow;
+}
+.action{
+	width: 100%;
+	color:  #31a5e8;
+	margin-top: 5px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+.text-fish{
+	margin-bottom: 5px;
+	text-align: center;
+}
+.act-price{
+	margin-top: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+.order{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.order a{
+	display: inline-block;
+	width: 160px;
+	color: #3aadf0;
+	margin-left: 75px;
+	line-height: 45px;
+	text-decoration: underline;
+}
+.minus-price{
+	width: 50px;
+	height: 50px;
+	background-color: yellow;
+	border-radius: 50%;
+	color: #3aadf0;
+	line-height: 45px;
+	text-align: center;
+	font-weight: bold;	
+}
+
+.sherlock{
+	width: 100%;
+	margin-top: 5px;
+	border: solid 2px #3aadf0;
+}
+.tshirt{
+	display: block;
+	width: 75%;
+	height: 250px;
+	margin: 0 auto;
+}
+.sherlock a{
+	width: 100%;
+	color: #3aadf0;
+	line-height: 45px;
+	text-decoration: underline;
+	text-align: center;
+}
+.unique{
+	width: 100%;
+	margin-top: 20px;
+	color: #3aadf0;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.service{
+	margin-top: 15px;
+	margin-bottom: 7px;
+	
+}
+.service img{
+	display: block;
+	margin: 0 auto;
+	width:120px;
+	height:120px;
+}
+.title-text{
+	color: #000;
+	font-style: italic;
+	text-align: center;
+}
+.sec-title{
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 5px;
+}
+.text{
+	text-align: center;
+	margin-top: 5px;
+}
+ .service a{
+ 	text-align: center;
+ 	text-decoration: underline;
+ 	text-decoration-style: dotted;
+ 	color: #3aadf0;
+ }
+
+ .dress a{
+ 	text-align: center;
+ 	text-decoration: underline;
+ 	color: #3aadf0;
+ 	font-style: italic;
+ 	text-transform: none;
+ 	font-size: 12px;
+ }
+ .item{
+ 	display: flex;
+ 	flex-direction: row;
+ 	align-items: center;
+ 	margin: 0 auto;
+ 	margin-top: 10px;
+ }
+ .tshirtcontent p{
+ 	text-align: center;
+
+ }
+
+.item img{
+	margin-left: 5px;
+	margin-right: 15px;
+}
+.tshirtcontent .sherlock{
+	position: relative;
+	height: 440px;
+	border: solid 2px #fff;
+}
+.order-now{
+	width: 150px;
+	height: 45px;
+}
+.order-now a{
+	position:absolute;
+	bottom: 1px;
+	right: 5px;
+	display: none;
+	text-align: center;
+ 	text-decoration: underline;
+ 	color: #3aadf0;
+ 	font-style: italic;
+ 	text-transform: none;
+ 	font-size: 12px;
+ }
+ .tshirtcontent .sherlock:hover .order-now a{
+ 	display: block;
+  }
+.tshirtcontent .sherlock:hover{
+	border: 2px solid #3aadf0;
+}
+.bottomitems .sherlock p {
+	text-align:center;
+}
+.bottomitems .sherlock{
+	border: none;
+}
+.newseason{
+	width: 100%;
+	text-align: center;
+	color: #3aadf0;	
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 10px;	
+}
+.more{
+	width: 100%;
+	text-align: center;
+	color: #3aadf0;	
+	font-size: 20px;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+.linebot{
+	width:100%;
+	height: 1px;
+	background-color: #3aadf0;
+	margin-top: 15px;
+}
+.blue{
+	background-color: #3aadf0;
+}
+.green{
+	background-color: #5f8c23;
+	opacity: 0.5;
+}
+.percent{
+	width: 100%;
+	text-align: center;
+	font-size: 100px;
+	color:  #f7c50f;
+}
+.znizka img{
+	display: block;
+	margin: 0 auto;
+}
+.revisenews a, .topics a{
+	width:100%;
+	margin-top: 10px;
+	text-align: center;
+	color: #3aadf0;	
+	font-size: 18px;
+	text-decoration: underline;
+	font-style: italic;
+}
+.topics a{
+	font-size: 22px;
+	text-decoration: none;
+	font-style: none;
+	font-weight: bold;
+}
+.date{
+	margin-top: 10px;
+	font-size: 15px;
+	text-align: center;
+}
+.summerprom{
+	margin-top: 10px;
+	font-size: 17px;
+	color: #3aadf0;
+	text-align: center;
+}
+.textinfo{
+	margin-top: 10px;
+	text-align: center;
+}
+.exect{
+	margin-top: 15px;
+}
+.rewiews{
+	margin-top: 20px;
+}
+.rewiews img{
+	display: block;
+	margin: 0 auto;
+}
+.city, .oks{
+	text-align: center;
+}
+.oks{
+	font-weight: bold;
+}
+.rewiews p{
+	margin-bottom: 15px;
+}
+.info-bottom{
+	text-align: center;
+	margin-top: 15px;
+}
+.info-title{
+	font-size: 20px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+.info-bottom a{
+	text-decoration: underline;
+ 	color: #3aadf0;
+ 	font-size: 15px;
+ 	margin-top: 10px;
+ }
+.down{
+	width: 100%;
+	margin-top: 15px;
+	text-align: center;
+}
+.bottom{
+	width: 100%;
+	height: 35px;
+	margin-top: 15px;
+	line-height: 35px;
+	background-color: #3aadf0;
+	color:  #fff;
+	text-align: center;
+}
+@media screen and (max-width : 320px) {
+.content-prod .tshirt{
+	height: 200px ;
+}
+header .linebot{
+	display: none;
+}
+
+
+}
+@media screen and (min-width: 568px) and (max-width: 1440px){
+	body{
+		margin: 0;
+		padding: 0;
+	}
+	header{
+		display: flex;
+		flex-flow: wrap;
+		position: relative;
+	}
+.arrow-down{
+	margin-left: 270px;
+} 
+.btn{
+	background-color: #f7c50f;
+	height: 25px;
+	width: 95px;
+	border-radius: 15px;
+	color: #000;	
+	font-weight: bold;
+	text-align: center;
+	border: transparent;
+	float: left;
+	margin-right: 10px;
+}
+.create{
+	margin-left: 150px;
+}
+
+.create, .sell{
+	width: 120px;
+	height: 25px;
+	font-size: 12px;
+	border-radius: 50px;
+	order: -5;
+	margin-top: 17px;
+	margin-bottom: 0px;
+}	
+header .btn img{
+	width: 12px;
+	height: 12px;
+}
+header .social{
+	position: absolute;
+	width: 150px;
+	top: 0px;
+	left: 625px;
+}
+header .top-contacts{
+	width: 300px;
+	position: absolute;
+	top: 17px;
+	right: 75px;
+}
+header .linebot{
+	width: 100%;
+}
+.kyivstartel{
+	display: block;
+	width: 250px;
+	height: 25px;
+	margin-left: 150px;
+}
+.kyivstar{
+	font-size: 15px;
+	margin-top: 1px;
+
+}
+.telnumber{
+	font-size: 15px;
+	margin-left: 15px;
+
+}
+.registr{
+	position: absolute;
+	top: 100px;
+	left: 153px;
+
+}
+.enter, .registration{
+	font-size: 15px;
+	text-transform: capitalize;
+}
+.productlogo{
+	width: 300px;
+	margin-left: 150px;
+}
+.line{
+	display: block;
+	margin-right:650px;
+}
+.wthdone{
+	position: absolute;
+	top: 50px;
+	right: 0px;
+	width: 350px; 
+}
+.basket{
+	display: block;
+	margin-bottom: 25px;
+	margin-top: 5px;
+}
+.preferences{
+	margin-left: 25px;
+}
+.menu__btn{
+	display: none;
+}
+.upper{
+	width: 950px;
+	margin: 0 auto;
+}
+.upper a{
+	font-style: italic;
+	text-transform: none;
+	font-size: 12px;
+}
+.upper a:hover{
+	text-decoration: underline;
+	color:  #3aadf0;
+}
+.menu{
+	display: block;	
+	height: 25px;
+	background-color: transparent;
+}
+.menu a{
+	display: inline-block;
+	height: 40px;
+	color: #000;
+	text-decoration: none;
+	text-transform: normal;
+}
+.menu li{	
+	display: inline-block;
+	height: 30px;
+}
+ .categories a{
+ 	font-size: 11px;
+  }
+ .categories a:hover{
+ 	color:  #3aadf0;
+ 	border-bottom: solid 2px  #3aadf0; 
+ }
+ .yellow{
+ 	background-color: yellow;
+ 	display: block;
+ }
+ div.vyshyvanka{
+	display: block;
+}
+.vyshyvanka{
+	background-image: url(../img/vyshyvanka.png); 
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	height: 145px;
+	opacity: 0.1;
+}
+.content-prod{
+	width: 900px;
+	height: 300px;
+	display: block;
+	position: absolute;
+	top: 250px;
+	left: 150px;
+	border: solid 2px #f8fc0a;
+	background-color: #fff;
+	padding-left: 70px;
+}
+.action{
+	width: 350px;
+	height: 25px;
+	font-size: 24px;
+	margin-top: 25px;
+	text-align: left;
+}
+.text-fish{
+	width: 230px;
+	height: 100px;
+	text-align: left;
+	font-size: 12px;
+	margin-top: 10px;
+}
+.act-price{
+	width: 100px;
+	text-align: left;
+}
+.order{
+	width: 300px;
+	display: block;
+}
+.order a{
+	display: inline-block;
+	margin: 0;
+	float: left;
+}
+.minus-price{
+	display: inline-block;
+}
+div.content-prod .tshirt{
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 330px;
+	height: 297px;
+}
+.right-offer{
+	position: absolute;
+	top:250px;
+	right: 105px;
+}
+.sherlock{
+	position: relative;
+	width: 190px;
+	height: 97px;
+	padding-left: 12px;
+	background-color: #fff;
+}
+div.sherlock .tshirt{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 75px;
+	height: 90px;
+}
+div.right-offer .sherlock a{
+	width: 85px;
+	font-size: 10px;
+	text-align: left;
+	margin: 0;
+	line-height: 20px;
+}
+div.right-offer .sherlock .act-price {
+	font-size: 15px;
+	margin-top: 25px;
+}
+.unique{
+	margin-top: 250px;
+	font-size: 25px;
+}
+.service{
+	width: 350px;
+	float: left;
+	margin-right: 15px;
+	margin-left: 70px;
+	margin-top: 55px;
+}
+.service img{
+	display: block;
+	margin-right: 15px;
+	float: left;
+	width: 100px;
+	height: 120px;
+}
+.service div.title-text, .sec-title, .text{
+	text-align: left;
+}
+
+.service a{
+	width: 150px;
+	margin-left: 66px;
+}
+
+
+}
+
+	
+
+
+
+
+
+
+
+
+	
