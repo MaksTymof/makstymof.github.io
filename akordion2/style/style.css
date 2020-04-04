@@ -1,0 +1,34 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+#accordion-list{
+	width: 480px;
+	margin: 0 auto;
+}
+.accordion{
+	background-color: #eee;
+	color:#444;
+	cursor: pointer;
+	padding: 18px;
+	width: 480px;
+	height: 70px;
+	text-align: left;
+}
+.accContent{
+	padding:  0 18px;
+	background-color: #fff;
+	display: none;
+	padding: 20px;
+}
+.show{
+	display: block;
+}
+.hide{
+	display: none;
+}
+.rotation{
+	transform: rotate(180deg);
+	text-align: right;
+}
