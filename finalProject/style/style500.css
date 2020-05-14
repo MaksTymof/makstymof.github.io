@@ -1,0 +1,14 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1 {
+	color: red;
+	margin-top: 250px;
+	font-size: 172px;
+}
+ p{
+ 	color: green;
+ 	font-size: 100px;
+ }
