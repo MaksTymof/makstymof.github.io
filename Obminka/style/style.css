@@ -43,8 +43,9 @@ h1{
 }
 .header-top p{
 	color: #C6DF24;
-	font-size: 25px;
+	font-size: 22px;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 
 button{
