@@ -1,0 +1,866 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	padding: 5px;
+}
+header{
+	width: 100%;
+	height: auto;
+	background-image: url(../img/backroundtop.png);	
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.logoicon{
+	width:100%;
+	height: auto;
+	text-align: center;
+	background-color: #575655;
+}
+.navbutton{
+	width: 50px;
+	height: 50px;
+	position:fixed;
+	bottom: 15px;
+	right: 15px;
+	background-color: #ffc901;
+	opacity: 0.8;
+	border-radius: 50%;
+	z-index: 15;
+}
+.navbutton a{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+
+.navbutton i{
+	line-height: 50px;
+	margin: 0;
+	text-align: center;
+}
+nav{
+	display: none;
+}
+.clickmenu{
+	background-color: #575655;
+	width: 100%;
+	height: auto;
+	margin-top: 15px;
+}
+.menu{
+	width: 100%;
+	height: 65px;
+	margin-top: 15px;
+	background-color: #ffc901;
+	border: none;
+	border-radius: 5px;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+div.menu a{
+	display: block;
+	font-size: 30px;
+	line-height: 65px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+}
+div.clickmenu:hover nav{
+	display: block;
+	color: #000;
+}
+li{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 45px;
+	border-bottom: 1px solid #ffc901;
+}
+li a{
+	display: block;
+	width: 100%;
+	height: auto;
+	color: #fff;
+	font-family: "Chivo Regular", sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+li:hover{
+	background-color: #ffc901; 
+}
+ header a:hover{
+	color: #000;
+}
+li:first-child{
+	border-top: solid 2px #000;
+}
+.description{
+	width: 100%;
+	height: auto;
+	background-image: url(../img/toptarelki.png);
+	background-repeat: no-repeat;
+	background-position: 125% 115%;
+	background-size: 320px;
+}
+.inner-text{
+	width: 90%;
+	height: auto;
+	margin: 25px auto;
+	font-family: "Chivo Regular", sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+.inner-p{
+	display: block;
+	width: 95%;
+	
+}
+.inner-p a{
+	display: block;
+	text-decoration: none;
+	font-family: "Chivo Regular", sans-serif;
+	font-size: 20px;
+	color: #ffc901;
+	text-align: right;
+	text-transform: uppercase;
+}
+.inner-p a:hover{
+	color: #fff;
+}
+p.inner-text span>a{
+	display: inline-block;
+	color: #ffc901;
+	text-decoration: none;
+}
+section.about{
+	width: 100%;
+	margin-top: -25px;
+	background-image: url(../img/aboutbackground.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 90% 50%;
+	padding-bottom: 25px;
+
+}
+section.about p{
+	width: 90%;
+	height: auto;
+	margin: 10px auto;
+	text-align:center;
+	color: #fff;
+	font-size: 42px;
+}
+section.about .title{
+	text-transform: uppercase;
+}
+.logo{
+	display: inline-block;
+	font-family: "Atma", sans-serif;
+}
+p.title:before, p.title:after{
+	content: '~';
+	color: #ffc901;
+	font-size: 56px;
+}
+.abouttext{
+	display: block;
+	width: 90%;
+	margin: 25px auto;
+	font-family: "Overpass Light", sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+}
+.visitk{
+	margin: 15px auto;
+	display: block;
+	font-family: "Overpass Light", sans-serif;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+section.our-work{
+	width: 100%;
+	height: auto;
+	margin-top: -18px;
+	background-image: url(../img/backroundtop.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.inner-block{
+	width: 100%;
+	height: auto;
+	background-image: url(../img/rukazmed.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 90% 50%;
+}
+
+section.our-work p{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	text-align:center;
+	color: #fff;
+	font-size: 42px;
+	font-family: "Chivo Reguar", sans-serif;
+	text-transform: uppercase;
+}
+section.our-work .inner-text{
+	font-weight: 400;
+	color: yellow;
+}
+.discount{
+	display: block;
+	width: 90%;
+	margin: 15px auto;
+	text-align: center;
+	font-size: 28px;
+	font-family: "Atma", sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+}
+section.gallery{
+	width: 100%;
+	height: auto;
+	margin-top: -25px;
+	background-image: url(../img/backroundtop.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 25px 0px;
+}
+.gallery-item{
+	width: 100%;
+	height: auto;
+}
+.gallery-item img{
+	display: block;
+	width: inherit;
+}
+section.gallery p{
+	width: 90%;
+	height: auto;
+	margin: 10px auto;
+	text-align:center;
+	color: #fff;
+	font-size: 42px;
+	font-family: "Chivo Reguar", sans-serif;
+}
+section.gallery .title{
+	text-transform: uppercase;
+}
+
+section.booking{
+	width: 100%;
+	height: auto;
+	background-image: url(../img/tarelkipalychki.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	padding: 25px 0px;
+}
+section.booking p{
+	width: 90%;
+	height: auto;
+	margin: 10px auto;
+	text-align:center;
+	color: #fff;
+	font-size: 42px;
+	font-family: "Chivo Reguar", sans-serif;
+}
+section.booking .title{
+	text-transform: uppercase;
+}
+input{
+	display: block;
+	margin: 0 auto;
+	height: 50px;
+	width: 95%;
+	border: solid 2px #ffc901;
+	background: transparent;
+}
+label{
+	color: #fff;
+	padding-left: 5px;
+	font-size: 24px;
+	font-family:"Atma", sans-serif;
+	color: #fff;
+
+}
+.quantity-block{
+	width: 95%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+  border: solid 2px #ffc901;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  border-radius: 5px;
+}
+.quantity-arrow-minus,
+.quantity-arrow-plus {
+  cursor: pointer;
+   width: 50px;
+   height: 50px;
+  border-radius: 5px;
+  border: solid 2px #ffc901;
+  outline: none;
+  font-size: 25px;
+  color:#fff;
+  text-align: center;
+  background: transparent;
+}
+.quantity-num {
+  padding: 5px 10px;
+  width: 160px;
+ border: solid 2px #ffc901;
+  outline: none;
+}
+.submition{
+	display: block;
+	width: 170px;
+	height: auto;
+	margin: 25px auto;
+	background-color: #ffc901;
+	font-size: 36px;
+	text-transform: uppercase;
+	font-family: "Atma", sans-serif;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+}
+.submition a{
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+section.opinion{
+	width: 100%;
+	height: auto;
+	background-color: #000;
+	padding: 25px 0px;
+}
+.opinion-text{
+	width: 100%;
+	height: auto;
+	color: #fff;
+	background-image: url(../img/sonce.png);
+	background-position: 0% 60%;
+	background-repeat: no-repeat;
+	font-size: 18px;
+	font-family: "Chivo Regular", sans-serif;
+	text-align: center;
+}
+.opinion-text span{
+	display: block;
+	margin: 10px auto;
+	color: #ffc901;
+	text-transform: uppercase;
+}
+section.contact{
+	width: 100%;
+	height: auto;
+	background-color: #1c1c1c;
+}
+.wrapper-contact{
+	width: 100%;
+	height: auto;
+	padding: 25px 0px;
+	background-image: url(../img/backgroundbottom.png);
+	background-position: 80% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.desc, div.wrapper-contact span{
+	width: 100%;
+	height: auto;
+	color: #ffc901;
+	text-transform: capitalize;
+	font-size: 24px;
+	font-family:"Chivo Regular", sans-serif;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.opin{
+	width: 100%;
+	height: auto;
+	color: #fff;
+	font-size: 18px;
+	font-family: "Chivo Regular", sans-serif;
+	text-align: center;
+}
+div.wrapper-contact span{
+	display: block;
+	margin-top: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+section.following{
+	width: 100%;
+	height: auto;
+	background-color: #1c1c1c;
+	text-align: center;
+	padding: 25px 0px;
+}
+.network{
+	width: 100%;
+	text-align: center;
+	margin: 25px auto;
+}
+i{
+	font-size: 36px;
+	color: #fff;
+	margin-left: 10px;
+}
+.icofont-facebook{
+	margin-left: 0px;
+}
+footer{
+	text-align: center;
+	background-color: #1c1c1c;
+	color: #fff;
+}
+
+@media screen and (min-width: 569px) and (max-width:762px){
+	
+.menu{
+	display: none;
+}
+nav{
+	display: block;
+}
+ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0px 5px;
+}
+li{
+	list-style-type: none;
+	border: none;
+	width: initial;
+}
+li:first-child{
+	border: none;
+}
+ .clickmenu{
+ 	background-color: transparent;
+  }
+  .logoicon{
+ 	text-align: center;
+    background-color: #575655;
+}
+.navbutton{
+	right: 35px;
+}
+.inner-text{
+	width: 85%;
+}
+.inner-p{
+	margin-top: 75px;
+	
+}
+header{
+	padding: 10px 0px 25px;
+}
+section.about{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: flex-start;
+	height: 550px;
+	
+}
+.about p.title{
+	width: 400px;
+	margin: 0;
+}
+.abouttext{
+	width: 400px;
+	margin: 10px;
+}
+.visitk{
+	width: 400px;
+	margin: 0;
+}
+section.our-work{
+	height: 700px;
+}
+.inner-block{
+	width: 100%;
+	height: 700px;
+	background-image: url(../img/rukazmed.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-top: 250px;
+}
+section.our-work .abouttext{
+	margin: 15px auto;
+}
+section.our-work .inner-text{
+	width: 85%;
+}
+section.gallery{
+	padding: 15px;
+}
+.quantity-num{
+	width: 300px;
+}
+.timing{
+	display: flex;
+	justify-content: space-around;
+}
+.timing input{
+	width: 45%;
+}
+.timing-label{
+	display: flex;
+	justify-content: space-around;
+}
+.timing-label label{
+	width: 45%;
+}
+.opinion-text{
+	width: 100%;
+	background-position: -100% 60%;
+}
+section.contact{
+	background-size: contain;
+}
+.wrapper-contact{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: flex-start;
+	height: 550px;
+}
+.wrapper-contact p.desc{
+	width: 400px;
+	margin: 0;
+}
+.opin{
+	width: 400px;
+	margin: 10px;
+}
+section.contact span{
+	width: 400px;
+	margin: 0;
+}
+}
+@media screen and (min-width: 763px) and (max-width:992px){
+	.menu{
+	display: none;
+}
+nav{
+	display: block;
+}
+ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0px 5px;
+}
+li{
+	list-style-type: none;
+	border: none;
+	width: initial;
+}
+li:first-child{
+	border: none;
+}
+ .clickmenu{
+ 	background-color: transparent;
+  }
+  .logoicon{
+ 	text-align: center;
+    background-color: #575655;
+}
+.navbutton{
+	right: 35px;
+}
+.inner-text{
+	width: 85%;
+}
+.inner-p{
+	margin-top: 75px;
+	
+}
+header{
+	padding: 10px 0px 25px;
+	height: 550px;
+}
+section.about{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: flex-start;
+	height: 550px;
+	
+}
+.about p.title{
+	width: 400px;
+	margin: 0;
+}
+.abouttext{
+	width: 400px;
+	margin: 10px 15px 20px;
+	font-size: 24px;
+	font-weight: 400;
+}
+.visitk{
+	width: 400px;
+	margin: 0px;
+	font-size: 30px;
+}
+section.our-work{
+	height: 700px;
+}
+.inner-block{
+	width: 100%;
+	height: 700px;
+	background-image: url(../img/rukazmed.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-top: 250px;
+}
+section.our-work .abouttext{
+	margin: 15px auto;
+}
+section.our-work .inner-text{
+	width: 85%;
+}
+section.gallery{
+	padding: 15px;
+}
+.quantity-num{
+	width: 300px;
+}
+.timing{
+	display: flex;
+	justify-content: space-around;
+}
+.timing input{
+	width: 45%;
+}
+.timing-label{
+	display: flex;
+	justify-content: space-around;
+}
+.timing-label label{
+	width: 45%;
+}
+label[for="tel"], label[for="number"]{
+	margin-left: 25px;
+}
+.opinion-text{
+	width: 100%;
+	background-position: -290% 60%;
+}
+section.contact{
+	background-size: contain;
+}
+.wrapper-contact{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: flex-start;
+	height: 550px;
+}
+.wrapper-contact p.desc{
+	width: 400px;
+	margin: 0;
+}
+.opin{
+	width: 400px;
+	margin: 10px;
+}
+section.contact span{
+	width: 400px;
+	margin: 0;
+}
+}
+@media screen and (min-width:993px){
+	body{
+		padding: 0px;
+	}
+	.menu{
+	display: none;
+}
+nav{
+	display: block;
+}
+ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0px 5px;
+}
+li{
+	list-style-type: none;
+	border: none;
+	width: initial;
+}
+li:first-child{
+	border: none;
+}
+ .clickmenu{
+ 	background-color: transparent;
+  }
+  .logoicon{
+ 	text-align: center;
+    background-color: #575655;
+}
+.navbutton{
+	right: 35px;
+}
+.inner-text{
+	width: 85%;
+}
+.inner-p{
+	margin-top: 75px;
+	
+}
+header{
+	padding: 10px 0px 25px;
+	height: 950px;
+}
+.description{
+	height: 950px;
+	background-size: contain;
+	background-position:400% -290%;
+}
+p.inner-text{
+	width: 400px;
+	text-align: right;
+	margin-right: 25px;
+}
+.book{
+	margin-top: -270px;
+	margin-right: 25px;
+}
+section.about{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: flex-start;
+	height: 550px;
+	
+}
+.about p.title{
+	width: 400px;
+	margin: 0;
+}
+.abouttext{
+	width: 400px;
+	margin: 10px 15px 20px;
+	font-size: 24px;
+	font-weight: 400;
+}
+.visitk{
+	width: 400px;
+	margin: 0px;
+	font-size: 30px;
+}
+section.our-work{
+	height: 700px;
+}
+.inner-block{
+	width: 100%;
+	height: 700px;
+	background-image: url(../img/rukazmed.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-top: 50px;
+}
+section.our-work .abouttext{
+	margin: 15px auto;
+}
+section.our-work .inner-text{
+	width: 85%;
+}
+section.gallery{
+	padding: 15px;
+}
+.quantity-num{
+	width: 300px;
+}
+.timing{
+	display: flex;
+	justify-content: space-around;
+}
+.timing input{
+	width: 45%;
+}
+.timing-label{
+	display: flex;
+	justify-content: space-around;
+}
+.timing-label label{
+	width: 45%;
+}
+label[for="tel"], label[for="number"]{
+	margin-left: 25px;
+}
+.opinion-text{
+	width: 100%;
+	background-position: 500% 60%;
+}
+section.contact{
+	background-size: contain;
+}
+.wrapper-contact{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: flex-start;
+	height: 550px;
+}
+.wrapper-contact p.desc{
+	width: 400px;
+	margin: 0;
+}
+.opin{
+	width: 400px;
+	margin: 10px;
+}
+.textopin{
+	width: 650px;
+	margin: 0 auto;
+}
+
+section.contact span{
+	width: 400px;
+	margin: 0;
+}
+}
