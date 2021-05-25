@@ -66,6 +66,9 @@ header {
 ul {
   margin-top: 25px;
 }
+ul li {
+  list-style: none
+}
 @media (min-width: 576px) {
   ul {
     display: flex;
