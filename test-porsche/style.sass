@@ -1,0 +1,195 @@
+*
+  margin : 0
+  padding: 0
+  box-sizing: border-box
+
+$body-background-color: #1e1f1e
+$primary-color: #272727
+$secondary-color: #f74d00
+$porsche-font: "PORCHE Regular", sans-serif
+
+$screen-lg-min: 1440px
+
+@mixin lg
+   @media (min-width: #{$screen-lg-min})
+       @content
+
+body
+  padding: 5px
+  @include lg
+    background-color: #1e1f1e
+    padding: 410px 120px
+.main-wrapper
+  @include lg
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+.logonimage
+  width: 100%
+  height: 100vh
+  background-image: url('img/porsche.png')
+  background-repeat: no-repeat
+  background-position: left center
+  position: relative
+  @include lg
+    width: 50%
+    height: 1100px
+    background-image: url('img/porsche.png')
+    background-repeat: no-repeat
+    background-position: center
+    background-size: 100% 1100px
+.logo
+  width: 415px
+  padding: 40px
+  position: relative
+  .logo-title
+    width: 270px
+  .logo-model
+    position: absolute
+    right: -10px
+    top: 65px
+    @include lg
+    position: absolute
+    right: -15px
+    top: 55px
+.containermobile
+  @include lg
+    display: none
+  .menu__btn
+    text-align: center
+    font-size: 36px
+    margin-bottom: 15px
+  .menu__box
+    right: 0
+    left: 35%
+.arrdown
+  color: $secondary-color
+  font-size: 45px
+  position: absolute
+  bottom: 15px
+  left: 50%
+  @include lg
+    display: none
+.info
+  display: none
+  @include lg
+    display: block
+    width: 50%
+    height: 1100px
+    background-color: $primary-color
+    background-repeat: no-repeat
+    position: relative
+    padding: 60px 60px 60px 80px
+.info-wrapper
+  padding: 60px
+nav
+  display: flex
+  justify-content: flex-end
+label
+  color: $secondary-color
+  width: 75%
+  input
+    height: 35px
+    width: 75%
+    background: transparent
+    border: none
+    color: $secondary-color
+.hide
+  display: none
+.menu__btn
+  color: $secondary-color
+  line-height: 30px
+.menu__box
+  position: absolute
+  right: 55px
+  z-index: 10
+li
+  display: block
+  width: 150px
+  height: 50px
+  background-color: rgba(153, 51, 0, 1)
+  border-radius: 15px
+  text-align: center
+  padding: 15px
+  margin-bottom: 5px
+  a
+    display: block
+    text-decoration: none
+    color: $primary-color
+    font-size: 18px
+
+h3
+  text-transform: uppercase
+  color: #fff
+  font-size: 15px
+  letter-spacing: 5px
+  margin-bottom: 40px
+  margin-top: 20px
+  span
+    color: $secondary-color
+.info-title_about
+  width: 450px
+  color: #fff
+  font-size: 70px
+  position: relative
+  margin-bottom: 60px
+  &:before
+    content: ''
+    width: 7px
+    height: 195px
+    background-color: $secondary-color
+    position: absolute
+    left: -70px
+    top: 10px
+.info-description
+  color: #fff
+  font-size: 14px
+  line-height: 35px
+  text-align: left
+  font-family: $porsche-font
+  margin-bottom: 55px
+#more
+  display: none
+button
+  border: 3px solid $secondary-color
+  padding: 25px 70px
+  font-size: 14px
+  text-transform: uppercase
+  letter-spacing: 5px
+  background-color: #503b32
+  color: #fff
+.arrows
+  display: flex
+  margin-top: 25px
+  .arrow
+    color: #6d6c6b
+    width: 62px
+    height: 18px
+    font-size: 45px
+    &:hover
+      color: $secondary-color
+.slides
+  display: flex
+  position: absolute
+  left: -100px
+  bottom: 55px
+  z-index: 10
+  .item_slide
+    width: 230px
+    height: 130px
+    &:hover
+      box-shadow: 0px -15px 0px 0px rgba(247,77,0,1)
+      transform: translateY(-15px)
+    img
+      width: 100%
+.active
+    box-shadow: 0px -15px 0px 0px rgba(247,77,0,1)
+    transform: translateY(-15px)
+
+.info_footer
+  background-color: $secondary-color
+  width: 100%
+  height: 150px
+  position: absolute
+  bottom: 0
+  left: 0

@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 5px;
+}
+@media (min-width: 1440px) {
+  body {
+    background-color: #1e1f1e;
+    padding: 410px 120px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .main-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.logonimage {
+  width: 100%;
+  height: 100vh;
+  background-image: url("img/porsche.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  position: relative;
+}
+@media (min-width: 1440px) {
+  .logonimage {
+    width: 50%;
+    height: 1100px;
+    background-image: url("img/porsche.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 1100px;
+  }
+}
+
+.logo {
+  width: 415px;
+  padding: 40px;
+  position: relative;
+}
+.logo .logo-title {
+  width: 270px;
+}
+.logo .logo-model {
+  position: absolute;
+  right: -10px;
+  top: 65px;
+  position: absolute;
+  right: -15px;
+  top: 55px;
+}
+@media (min-width: 1440px) {
+  .containermobile {
+    display: none;
+  }
+}
+.containermobile .menu__btn {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+.containermobile .menu__box {
+  right: 0;
+  left: 35%;
+}
+
+.arrdown {
+  color: #f74d00;
+  font-size: 45px;
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+}
+@media (min-width: 1440px) {
+  .arrdown {
+    display: none;
+  }
+}
+
+.info {
+  display: none;
+}
+@media (min-width: 1440px) {
+  .info {
+    display: block;
+    width: 50%;
+    height: 1100px;
+    background-color: #272727;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 60px 60px 60px 80px;
+  }
+}
+
+.info-wrapper {
+  padding: 60px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+label {
+  color: #f74d00;
+  width: 75%;
+}
+label input {
+  height: 35px;
+  width: 75%;
+  background: transparent;
+  border: none;
+  color: #f74d00;
+}
+
+.hide {
+  display: none;
+}
+
+.menu__btn {
+  color: #f74d00;
+  line-height: 30px;
+}
+
+.menu__box {
+  position: absolute;
+  right: 55px;
+  z-index: 10;
+}
+
+li {
+  display: block;
+  width: 150px;
+  height: 50px;
+  background-color: #993300;
+  border-radius: 15px;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 5px;
+}
+li a {
+  display: block;
+  text-decoration: none;
+  color: #272727;
+  font-size: 18px;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 5px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+h3 span {
+  color: #f74d00;
+}
+
+.info-title_about {
+  width: 450px;
+  color: #fff;
+  font-size: 70px;
+  position: relative;
+  margin-bottom: 60px;
+}
+.info-title_about:before {
+  content: "";
+  width: 7px;
+  height: 195px;
+  background-color: #f74d00;
+  position: absolute;
+  left: -70px;
+  top: 10px;
+}
+
+.info-description {
+  color: #fff;
+  font-size: 14px;
+  line-height: 35px;
+  text-align: left;
+  font-family: "PORCHE Regular", sans-serif;
+  margin-bottom: 55px;
+}
+
+#more {
+  display: none;
+}
+
+button {
+  border: 3px solid #f74d00;
+  padding: 25px 70px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  background-color: #503b32;
+  color: #fff;
+}
+
+.arrows {
+  display: flex;
+  margin-top: 25px;
+}
+.arrows .arrow {
+  color: #6d6c6b;
+  width: 62px;
+  height: 18px;
+  font-size: 45px;
+}
+.arrows .arrow:hover {
+  color: #f74d00;
+}
+
+.slides {
+  display: flex;
+  position: absolute;
+  left: -100px;
+  bottom: 55px;
+  z-index: 10;
+}
+.slides .item_slide {
+  width: 230px;
+  height: 130px;
+}
+.slides .item_slide:hover {
+  box-shadow: 0px -15px 0px 0px #f74d00;
+  transform: translateY(-15px);
+}
+.slides .item_slide img {
+  width: 100%;
+}
+
+.active {
+  box-shadow: 0px -15px 0px 0px #f74d00;
+  transform: translateY(-15px);
+}
+
+.info_footer {
+  background-color: #f74d00;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
