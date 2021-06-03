@@ -1,5 +1,4 @@
-alert('It was a test task, so only Mobile Version max-width:500px
-      and Desktop Version')
+alert("It was a test task only Mobile max-width: 500px and Desktop versions")
 var slideIndex = 1;
 showSlides(slideIndex);
 
