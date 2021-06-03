@@ -164,6 +164,11 @@ body {
 .contacts {
   text-align: center;
 }
+@media (min-width: 992px) {
+  .contacts {
+    margin-top: 75px;
+  }
+}
 .contacts a {
   display: block;
   font-size: 18px;
