@@ -1,3 +1,5 @@
+alert('It was a test task, so only Mobile Version max-width:500px
+      and Desktop Version')
 var slideIndex = 1;
 showSlides(slideIndex);
 
